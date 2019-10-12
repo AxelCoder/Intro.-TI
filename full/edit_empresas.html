@@ -430,6 +430,16 @@
 										<li class="nav-item"><a href="/Template/layout_1/LTR/default/full/empresas_lista.html" class="nav-link">Listar</a></li>
 									</ul>
 								</li>
+								<li class="nav-item nav-item-submenu">
+									<a href="#" class="nav-link"><i class="icon-color-sampler"></i> <span>Vacaciones</span></a>
+		
+									<ul class="nav nav-group-sub" data-submenu-title="Themes">
+										<!--<li class="nav-item"><a href="index.html" class="nav-link active">Default</a></li>-->
+										<li class="nav-item"><a href="../../../../layout_1/LTR/default/full/edit_vacaciones.html" class="nav-link">Editar</a></li>
+										<li class="nav-item"><a href="/Template/layout_1/LTR/default/full/add_vacaciones.html" class="nav-link">Añadir</a></li>
+										<li class="nav-item"><a href="/Template/layout_1/LTR/default/full/lista_vacaciones.html" class="nav-link">Listar</a></li>
+									</ul>
+								</li>
 						</ul>
 					</div>
 					<!-- /main navigation -->
@@ -447,7 +457,7 @@
 			<!-- Content area -->
 			<div class="content">
 
-				<!-- Departamentos -->
+				<!-- Empresas -->
 				<div class="card">
 					<div class="card-header header-elements-inline">
 						<h5 class="card-title">Empresas</h5>
@@ -463,14 +473,16 @@
 					<table class="table datatable-pagination">
 						<thead>
 							<tr>
-									<th></th>
-									<th></th>
+								<th></th>
+								<th></th>
 								<th>Nombre</th>
-								<th>Clave</th>
+								<th>RFC</th>
 								<th>Dirección</th>
+								<th>Correo</th>
 							</tr>
 						</thead>
 						<tbody>
+							
 							<tr>
 
 							<td><button type="button" class="btn bg-danger" data-toggle="modal" data-target="#modal_theme_danger">Borrar <i class="icon-eraser"></i></button></td>
@@ -479,7 +491,8 @@
 								
                             <td>Kemet</td>
                             <td>23512</td>
-                            <td>Col. Las Americas</td>
+							<td>Col. Las Americas</td>
+							<td>Kemet93@gmail.com</td>
 									</div>
 								</div>
 							</td>
@@ -489,15 +502,16 @@
 
 						<td><button type="button" class="btn btn-light" data-toggle="modal" data-target="#modal_remote">editar <i class="icon-pencil3 mr-2"></i></button></td>	
 							
-                        <td>Cisco</td>
-                        <td>01011</td>
-                        <td>Av. Cisco</td>
-											</div>
-										</div>
-									</div>
-								</td>
-							</tr>
-							<tr>
+                    	 		<td>Cisco</td>
+                       	 		<td>01011</td>
+								<td>Av. Cisco</td>
+								<td>Cisco@hotmail.com</td>
+								</div>
+							</div>
+						</div>
+					</td>
+				</tr>
+				<tr>
 							
 							<td><button type="button" class="btn bg-danger" data-toggle="modal" data-target="#modal_theme_danger">Borrar <i class="icon-eraser"></i></button></td>
 	
@@ -505,7 +519,8 @@
 								
                             <td>Oracle</td>
                             <td>18629</td>
-                            <td>Col. Java</td>
+							<td>Col. Java</td>
+							<td>Oracle011@gmail.com</td>
 										</div>
 										</div>
 									</div>
@@ -519,7 +534,8 @@
 								
                             <td>Wallmart</td>
                             <td>27166</td>
-                            <td>Av. Insurgentes</td>
+							<td>Av. Insurgentes</td>
+							<td>MarkWallmart@gmail.com</td>
 										</div>
 										</div>
 									</div>
@@ -533,7 +549,8 @@
 								
                             <td>Radioshack</td>
                             <td>27351</td>
-                            <td>Col. Raspberry</td>
+							<td>Col. Raspberry</td>
+							<td>Radioshack1@hotmail.com</td>
 										</div>
 										</div>
 									</div>
@@ -542,7 +559,7 @@
 						</tbody>
 					</table>
 				</div>
-				<!-- /Departamentos -->
+				<!-- /Empresas -->
 
 			</div>
 			<!-- /content area -->
@@ -601,8 +618,6 @@
                                                 <div class="col-lg-10">
                                                     <input type="text" class="form-control"  value="empresa encargada de darnos soporte en redes">
                                                 </div>
-                                                <button type="submit" class="btn bg-blue ml-3">Enviar <i class="icon-paperplane ml-2"></i></button>
-                                            </div>
 
 						<div class="modal-body"></div>
 			

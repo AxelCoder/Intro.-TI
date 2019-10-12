@@ -4,7 +4,7 @@
 	<meta charset="utf-8">
 	<meta http-equiv="X-UA-Compatible" content="IE=edge">
 	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-	<title>Lista de departamento</title>
+	<title>Editar vacaciones</title>
 
 	<!-- Global stylesheets -->
 	<link href="https://fonts.googleapis.com/css?family=Roboto:400,300,100,500,700,900" rel="stylesheet" type="text/css">
@@ -399,13 +399,23 @@
 				<!-- Main navigation -->
 				<div class="card card-sidebar-mobile">
 						<ul class="nav nav-sidebar" data-nav-type="accordion">
-
+	
+							<!-- Main -->
+							<!--<li class="nav-item-header"><div class="text-uppercase font-size-xs line-height-xs">Main</div> <i class="icon-menu" title="Main"></i></li>
+							<li class="nav-item">
+								<a href="index.html" class="nav-link active">
+									<i class="icon-home4"></i>
+									<span>
+										Dashboard
+									</span>
+								</a>
+							</li>-->
 							<li class="nav-item nav-item-submenu">
 									<a href="#" class="nav-link"><i class="icon-address-book"></i> <span>Empleados</span></a>
 		
 									<ul class="nav nav-group-sub" data-submenu-title="Layouts">
 										<!--<li class="nav-item"><a href="index.html" class="nav-link active">Default layout</a></li>-->
-										<li class="nav-item"><a href="../../../../layout_2/LTR/default/full/index.html" class="nav-link">Editar</a></li>
+										<li class="nav-item"><a href="../../../../layout_1/LTR/default/full/edit_empleados.html" class="nav-link">Editar</a></li>
 										<li class="nav-item"><a href="/Template/layout_1/LTR/default/full/add_usuarios.html" class="nav-link">Añadir</a></li>
 										<li class="nav-item"><a href="/Template/layout_1/LTR/default/full/Empleados_lista.html" class="nav-link">Listar</a></li>
 									</ul>
@@ -415,7 +425,7 @@
 		
 									<ul class="nav nav-group-sub" data-submenu-title="Themes">
 										<!--<li class="nav-item"><a href="index.html" class="nav-link active">Default</a></li>-->
-										<li class="nav-item"><a href="../../../../layout_2/LTR/default/full/index.html" class="nav-link">Editar</a></li>
+										<li class="nav-item"><a href="../../../../layout_1/LTR/default/full/edit_departamentos.html" class="nav-link">Editar</a></li>
 										<li class="nav-item"><a href="/Template/layout_1/LTR/default/full/add_departamentos.html" class="nav-link">Añadir</a></li>
 										<li class="nav-item"><a href="/Template/layout_1/LTR/default/full/departamentos_lista.html" class="nav-link">Listar</a></li>
 									</ul>
@@ -435,9 +445,9 @@
 		
 									<ul class="nav nav-group-sub" data-submenu-title="Themes">
 										<!--<li class="nav-item"><a href="index.html" class="nav-link active">Default</a></li>-->
-										<li class="nav-item"><a href="../../../../layout_1/LTR/default/full/edit_empresas.html" class="nav-link">Editar</a></li>
-										<li class="nav-item"><a href="/Template/layout_1/LTR/default/full/add_empresas.html" class="nav-link">Añadir</a></li>
-										<li class="nav-item"><a href="/Template/layout_1/LTR/default/full/empresas_lista.html" class="nav-link">Listar</a></li>
+										<li class="nav-item"><a href="../../../../layout_1/LTR/default/full/edit_vacaciones.html" class="nav-link">Editar</a></li>
+										<li class="nav-item"><a href="/Template/layout_1/LTR/default/full/add_vacaciones.html" class="nav-link">Añadir</a></li>
+										<li class="nav-item"><a href="/Template/layout_1/LTR/default/full/lista_vacaciones.html" class="nav-link">Listar</a></li>
 									</ul>
 								</li>
 						</ul>
@@ -457,10 +467,10 @@
 			<!-- Content area -->
 			<div class="content">
 
-				<!-- Departamentos -->
+				<!-- Empleados -->
 				<div class="card">
 					<div class="card-header header-elements-inline">
-						<h5 class="card-title">Lista de departamentos</h5>
+						<h5 class="card-title">Lista de vacaciones</h5>
 						<div class="header-elements">
 							<div class="list-icons">
 		                		<a class="list-icons-item" data-action="collapse"></a>
@@ -470,58 +480,91 @@
 	                	</div>
 					</div>
 
-					<table class="table datatable-pagination">
+					<table class="table datatable-basic">
 						<thead>
 							<tr>
-								<th>Nombre</th>
-								<th>Clave</th>
-								<th>Descripcion</th>
+                                <th></th>
+                                <th></th>
+								<th>Nombres</th>
+                                <th>Apellidos</th>
+                                <th>Fecha inicio</th>
+                                <th>Fecha fin</th>
+                                <th>Estado</th>
 							</tr>
 						</thead>
 						<tbody>
 							<tr>
-								<td>Departamento de redes</td>
-								<td><a href="#">01247</a></td>
-								<td>En este departamento se encuentran alojados los servidores y un grupo de empleados encargados de mantener todo en orden</td>
-									</div>
-								</div>
-							</td>
-						</tr>
-	
-									<td>Area de reuniones</td>
-									<td><a href="#">18232</a></td>
-									<td>En este departamento se llevan a cabo todo tipo de reuniones, como juntas de negocios, etc.</td>
-											</div>
+
+                                <td><button type="button" class="btn bg-danger" data-toggle="modal" data-target="#modal_theme_danger">Borrar <i class="icon-eraser"></i></button></td>
+
+                                 <td><button type="button" class="btn btn-light" data-toggle="modal" data-target="#modal_remote">editar <i class="icon-pencil3 mr-2"></i></button></td>	
+
+								<td>José</td>
+                                <td>Sanchez Santoyo</td>
+                                <td>10/10/2019</td>
+                                <td>15/10/2019</td>
+								<td><span class="badge badge-success">En vacaciones</span></td>
 										</div>
 									</div>
 								</td>
 							</tr>
 							<tr>
-							
-									<td>Area de descanso</td>
-									<td><a href="#">27374</a></td>
-									<td>lugar en el cual los empleados pueden tomar un descanzo, almorzar y despejar su mente</td>
-										</div>
-										</div>
-									</div>
-								</td>
-							</tr>
-							<tr>
-	
-									<td>Area de recursos humanos</td>
-									<td><a href="#">28475</a></td>
-									<td>En este departamento se llevan a cabo todo tipo de tramites</td>
-										</div>
+
+                                    <td><button type="button" class="btn bg-danger" data-toggle="modal" data-target="#modal_theme_danger">Borrar <i class="icon-eraser"></i></button></td>
+
+                                    <td><button type="button" class="btn btn-light" data-toggle="modal" data-target="#modal_remote">editar <i class="icon-pencil3 mr-2"></i></button></td>	
+
+								<td>Jaqueline</td>
+                                <td>Diaz Maldonado</td>
+                                <td>--/--/----</td>
+                                <td>--/--/----</td>
+								<td><span class="badge badge-secondary">No a registrado vacaciones</span></td>
 										</div>
 									</div>
 								</td>
 							</tr>
 							<tr>
-									
-									<td>Departamento administrativo</td>
-									<td><a href="#">28462</a></td>
-									<td>Aqui se encuentran los más altos mandos</td>
+
+
+                                    <td><button type="button" class="btn bg-danger" data-toggle="modal" data-target="#modal_theme_danger">Borrar <i class="icon-eraser"></i></button></td>
+
+                                    <td><button type="button" class="btn btn-light" data-toggle="modal" data-target="#modal_remote">editar <i class="icon-pencil3 mr-2"></i></button></td>	
+                        
+								<td>Beatriz Adriana</td>
+                                <td>Urbina Báez</td>
+                                <td>11/10/2019</td>
+                                <td>19/10/2019</td>
+								<td><span class="badge badge-success">En vacaciones</span></td>
 										</div>
+									</div>
+								</td>
+							</tr>
+							<tr>
+
+                                    <td><button type="button" class="btn bg-danger" data-toggle="modal" data-target="#modal_theme_danger">Borrar <i class="icon-eraser"></i></button></td>
+
+                                    <td><button type="button" class="btn btn-light" data-toggle="modal" data-target="#modal_remote">editar <i class="icon-pencil3 mr-2"></i></button></td>	
+
+									<td>Ana Sofia</td>
+                                    <td>Alemán Urbina</td>
+                                    <td>15/10/2019</td>
+                                    <td>21/10/2019</td>
+								<td><span class="badge badge-info">Vacaciones pendientes</span></td>
+										</div>
+									</div>
+								</td>
+							</tr>
+							<tr>
+
+                                    <td><button type="button" class="btn bg-danger" data-toggle="modal" data-target="#modal_theme_danger">Borrar <i class="icon-eraser"></i></button></td>
+
+                                    <td><button type="button" class="btn btn-light" data-toggle="modal" data-target="#modal_remote">editar <i class="icon-pencil3 mr-2"></i></button></td>	
+
+									<td>José Manuel</td>
+                                    <td>Martínez Tirado</td>
+                                    <td>18/10/2019</td>
+                                    <td>26/10/2019</td>
+								<td><span class="badge badge-info">Vacaciones pendientes</span></td>
 										</div>
 									</div>
 								</td>
@@ -529,10 +572,77 @@
 						</tbody>
 					</table>
 				</div>
-				<!-- /Departamentos -->
+				<!-- /Empleados -->
+
 
 			</div>
 			<!-- /content area -->
+
+					 <!-- Modal Eliminar -->
+					 <div id="modal_theme_danger" class="modal fade" tabindex="-1">
+							<div class="modal-dialog">
+								<div class="modal-content">
+									<div class="modal-header bg-danger">
+										<h6 class="modal-title">Confirmar eliminación</h6>
+										<button type="button" class="close" data-dismiss="modal">&times;</button>
+									</div>
+		
+									<div class="modal-body">
+										<h6 class="font-weight-semibold">¿Esta seguro que desea eliminar?</h6>
+									</div>
+									<div class="modal-footer">
+										<button type="button" class="btn btn-link" data-dismiss="modal">Cerrar</button>
+										<button type="button" class="btn bg-danger">Eiminar</button>
+									</div>
+								</div>
+							</div>
+						</div>
+						<!-- /Modal Eliminar -->
+		
+			<!-- Modal Editar -->
+		<div id="modal_remote" class="modal" tabindex="-1">
+				<div class="modal-dialog modal-full">
+					<div class="modal-content">
+						<div class="modal-header">
+							<h5 class="modal-title">Editar vacaciones</h5>
+							<button type="button" class="close" data-dismiss="modal">&times;</button>
+						</div>
+                        <div class="card">
+                                <div class="card-body">
+                                    <form action="#">
+                                        <fieldset class="mb-3">
+                                            <legend class="text-uppercase font-size-sm font-weight-bold">Ingrese los datos aqui</legend>
+            
+                                            <div class="form-group row">
+                                                <label class="col-form-label col-lg-2">Nombre</label>
+                                                <div class="col-lg-10">
+                                                    <input type="text" class="form-control"  value="José Manuel Martinez Tirado">
+                                                </div>
+                                            </div>
+            
+                                            <div class="form-group row">
+                                                <label class="col-form-label col-lg-2">Dia inicio</label>
+                                                <div class="col-lg-10">
+                                                    <input type="text" class="form-control"  value="18/10/2019">
+                                                </div>
+                                            </div>
+            
+                                            <div class="form-group row">
+                                                <label class="col-form-label col-lg-2">Dia fin</label>
+                                                <div class="col-lg-10">
+                                                    <input type="text" class="form-control"  value="18/10/2019">
+                                                </div>
+
+						<div class="modal-body"></div>
+			
+						<div class="modal-footer">
+							<button type="button" class="btn btn-link" data-dismiss="modal">Close</button>
+							<button type="button" class="btn bg-primary">Save changes</button>
+						</div>
+					</div>
+				</div>
+			</div>
+			<!-- /Modal Editar -->
 
 			<!-- Footer -->
 			<div class="navbar navbar-expand-lg navbar-light">
