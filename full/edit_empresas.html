@@ -470,6 +470,7 @@
 	                	</div>
 					</div>
 
+					<div class="table-responsive">
 					<table class="table datatable-pagination">
 						<thead>
 							<tr>
@@ -478,41 +479,51 @@
 								<th>Nombre</th>
 								<th>RFC</th>
 								<th>Dirección</th>
-								<th>Correo</th>
+								<th>C. P.</th>
 								<th>Servicio</th>
+								<th>Correo</th>
+								<th>Teléfono</th>
+								<th>Página web</th>
+								<th>Oficinas centrales</th>
+								<th>Propietario</th>
 							</tr>
 						</thead>
 						<tbody>
 							
-							<tr>
+
 
 							<td><button type="button" class="btn bg-danger" data-toggle="modal" data-target="#modal_theme_danger">Borrar <i class="icon-eraser"></i></button></td>
 			
 							<td><button type="button" class="btn btn-light" data-toggle="modal" data-target="#modal_remote">editar <i class="icon-pencil3 mr-2"></i></button></td>
 								
                             <td>Kemet</td>
-                            <td>23512</td>
-							<td>Col. Las Americas</td>
-							<td>Kemet93@gmail.com</td>
+							<td>KMT14267251</td>
+							<td>AV. Torre Blanca</td>
+							<td>87049</td>
 							<td>Distribuidor de componentes electronicos</td>
-									</div>
-								</div>
-							</td>
-						</tr>
+							<td>info@kemet.com</td>
+							<td>8343187400</td>
+							<td>kemet.com</td>
+							<td>Cd. Victoria, Tam.</td>
+							<td>Julio Preciado</td>
+
+						<tr>
 
 						<td><button type="button" class="btn bg-danger" data-toggle="modal" data-target="#modal_theme_danger">Borrar <i class="icon-eraser"></i></button></td>
 
 						<td><button type="button" class="btn btn-light" data-toggle="modal" data-target="#modal_remote">editar <i class="icon-pencil3 mr-2"></i></button></td>	
 							
                     	 		<td>Cisco</td>
-                       	 		<td>01011</td>
+								<td>CSO14267251</td>
 								<td>Av. Cisco</td>
-								<td>Cisco@hotmail.com</td>
+								<td>94027</td>
 								<td>Distribuidor y soporte a servidores</td>
-								</div>
-							</div>
-						</div>
-					</td>
+								<td>Cisco@hotmail.com</td>
+								<td>8007642340</td>
+								<td>cisco.com</td>
+								<td>San José, California</td>
+								<td>Chuck Robbins</td>
+								
 				</tr>
 				<tr>
 							
@@ -521,14 +532,15 @@
 							<td><button type="button" class="btn btn-light" data-toggle="modal" data-target="#modal_remote">Editar <i class="icon-pencil3 mr-2"></i></button></td>
 								
                             <td>Oracle</td>
-                            <td>18629</td>
+							<td>OCE14267251</td>
 							<td>Col. Java</td>
-							<td>Oracle011@gmail.com</td>
+							<td>33109</td>
 							<td>Gestor de bases de datos</td>
-										</div>
-										</div>
-									</div>
-								</td>
+							<td>Oracle@gmail.com</td>
+							<td>6505067000</td>
+							<td>www.oracle.com</td>
+							<td>Redwood City, California</td>
+							<td>Lawrence J.</td>
 							</tr>
 							<tr>
 
@@ -536,30 +548,33 @@
 			
 							<td><button type="button" class="btn btn-light" data-toggle="modal" data-target="#modal_remote">Editar <i class="icon-pencil3 mr-2"></i></button></td>
 								
-                            <td>Wallmart</td>
-                            <td>27166</td>
+                            <td>Walmart</td>
+							<td>WLL14267251</td>
 							<td>Av. Insurgentes</td>
-							<td>MarkWallmart@gmail.com</td>
+							<td>54102</td>
 							<td>Distribuidor de productos y alimentos</td>
-										</div>
-										</div>
-									</div>
-								</td>
+							<td>MWalmart@gmail.com</td>
+							<td>8007131000</td>
+							<td>www.walmart.com</td>
+							<td>Betonville, Arkansas</td>
+							<td>Familia Walton</td>
 							</tr>
-							<tr>
-								
+
+							<tr>	
 							<td><button type="button" class="btn bg-danger" data-toggle="modal" data-target="#modal_theme_danger">Borrar <i class="icon-eraser"></i></button></td>
 	
 							<td><button type="button" class="btn btn-light" data-toggle="modal" data-target="#modal_remote">Editar <i class="icon-pencil3 mr-2"></i></button></td>
 								
                             <td>Radioshack</td>
-                            <td>27351</td>
+                            <td>RSA14267251</td>
 							<td>Col. Raspberry</td>
-							<td>Radioshack1@hotmail.com</td>
+							<td>14203</td>
 							<td>Distribuidor de dispositivos electronicos</td>
-										</div>
-										</div>
-									</div>
+							<td>RadioSH@hotmail.com</td>
+							<td>8003722300</td>
+							<td>www.radioshack.com</td>
+							<td>Fort Wort, Texas</td>
+							<td>Milton D.</td>
 								</td>
 							</tr>
 						</tbody>
@@ -605,39 +620,75 @@
                                         <fieldset class="mb-3">
                                             <legend class="text-uppercase font-size-sm font-weight-bold">Ingrese los datos aqui</legend>
             
-                                            <div class="form-group row">
-												<label class="col-form-label col-lg-2">Nombre</label>
+									<div class="form-group row">
+									<label class="col-form-label col-lg-2">Nombre</label>
+									<div class="col-lg-10">
+										<input type="text" class="form-control"  value="Cisco">
+									</div>
+								</div>
+
+								<div class="form-group row">
+									<label class="col-form-label col-lg-2">RFC</label>
+									<div class="col-lg-10">
+										<input type="text" class="form-control"  value="01010">
+									</div>
+								</div>
+
+								<div class="form-group row">
+									<label class="col-form-label col-lg-2">Dirección</label>
+									<div class="col-lg-10">
+										<input type="text" class="form-control"  value="Av. Cisco">
+									</div>
+								</div>
+
+								
+								<div class="form-group row">
+									<label class="col-form-label col-lg-2">C. P</label>
+									<div class="col-lg-10">
+										<input type="text" class="form-control"  value="94027">
+									</div>
+								</div>
+
+								<div class="form-group row">
+									<label class="col-form-label col-lg-2">Servicio</label>
+									<div class="col-lg-10">
+										<input type="text" class="form-control"  value="Soporte en redes y servidores">
+									</div>
+								</div>
+
+									<div class="form-group row">
+											<label class="col-form-label col-lg-2">Correo</label>
+											<div class="col-lg-10">
+												<input type="text" class="form-control"  value="Cisco@hotmail.com">
+											</div>
+										</div>
+
+										<div class="form-group row">
+												<label class="col-form-label col-lg-2">Teléfono</label>
 												<div class="col-lg-10">
-													<input type="text" class="form-control"  value="Cisco">
+													<input type="text" class="form-control"  value="01 800 213 2344">
 												</div>
 											</div>
-			
+
 											<div class="form-group row">
-												<label class="col-form-label col-lg-2">RFC</label>
-												<div class="col-lg-10">
-													<input type="text" class="form-control"  value="01010">
+													<label class="col-form-label col-lg-2">Página Web</label>
+													<div class="col-lg-10">
+														<input type="text" class="form-control"  value="www.cisco.com">
+													</div>
 												</div>
-											</div>
-			
-											<div class="form-group row">
-												<label class="col-form-label col-lg-2">Dirección</label>
-												<div class="col-lg-10">
-													<input type="text" class="form-control"  value="Av. Cisco">
-												</div>
-											</div>
-			
-											<div class="form-group row">
-												<label class="col-form-label col-lg-2">Correo</label>
-												<div class="col-lg-10">
-													<input type="text" class="form-control"  value="Cisco@hotmail.com">
-												</div>
-											</div>
-			
+
 												<div class="form-group row">
-														<label class="col-form-label col-lg-2">Servicio</label>
-														<div class="col-lg-10">
-															<input type="text" class="form-control"  value="Soporte en redes y servidores">
-														</div>
+													<label class="col-form-label col-lg-2">Oficinas centrales</label>
+													<div class="col-lg-10">
+														<input type="text" class="form-control"  value="San José, California">
+													</div>
+												</div>
+
+												<div class="form-group row">
+													<label class="col-form-label col-lg-2">Propietario</label>
+													<div class="col-lg-10">
+														<input type="text" class="form-control"  value="Cisco@hotmail.com">
+													</div>
 						<div class="modal-body"></div>
 			
 						<div class="modal-footer">
