@@ -4,7 +4,7 @@
 	<meta charset="utf-8">
 	<meta http-equiv="X-UA-Compatible" content="IE=edge">
 	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-	<title>editar lista de empresas</title>
+	<title>Lista de Empresas</title>
 
 	<!-- Global stylesheets -->
 	<link href="https://fonts.googleapis.com/css?family=Roboto:400,300,100,500,700,900" rel="stylesheet" type="text/css">
@@ -440,10 +440,6 @@
 										<li class="nav-item"><a href="/Template/layout_1/LTR/default/full/lista_vacaciones.html" class="nav-link">Listar</a></li>
 									</ul>
 								</li>
-								                                    
-								<li class="nav-item nav-item-menu"></li>
-								<a href="/Template/layout_1/LTR/default/full/pagos_transporte.html" class="nav-link"><i class="icon-address-book"></i> <span>Pago de transporte</span></a>
-						</li>
 						</ul>
 					</div>
 					<!-- /main navigation -->
@@ -460,272 +456,110 @@
 
 			<!-- Content area -->
 			<div class="content">
-
+			
 				<!-- Empresas -->
 				<div class="card">
-					<div class="card-header header-elements-inline">
-						<h5 class="card-title">Empresas</h5>
-						<div class="header-elements">
-							<div class="list-icons">
-		                		<a class="list-icons-item" data-action="collapse"></a>
-		                		<a class="list-icons-item" data-action="reload"></a>
-		                		<a class="list-icons-item" data-action="remove"></a>
-		                	</div>
-	                	</div>
-					</div>
-
-					<div class="table-responsive">
-					<table class="table datatable-pagination">
-						<thead>
-							<tr>
-								<th></th>
-								<th></th>
-								<th>Nombre</th>
-								<th>RFC</th>
-								<th>Dirección</th>
-								<th>C. P.</th>
-								<th>Servicio</th>
-								<th>Correo</th>
-								<th>Teléfono</th>
-								<th>Página web</th>
-								<th>Oficinas centrales</th>
-								<th>Propietario</th>
-							</tr>
-						</thead>
-						<tbody>
-							
-
-
-							<td><button type="button" class="btn bg-danger" data-toggle="modal" data-target="#modal_theme_danger">Borrar <i class="icon-eraser"></i></button></td>
-			
-							<td><button type="button" class="btn btn-light" data-toggle="modal" data-target="#modal_remote">editar <i class="icon-pencil3 mr-2"></i></button></td>
-								
-                            <td>Kemet</td>
-							<td>KMT14267251</td>
-							<td>AV. Torre Blanca</td>
-							<td>87049</td>
-							<td>Distribuidor de componentes electronicos</td>
-							<td>info@kemet.com</td>
-							<td>8343187400</td>
-							<td>kemet.com</td>
-							<td>Cd. Victoria, Tam.</td>
-							<td>Julio Preciado</td>
-
-						<tr>
-
-						<td><button type="button" class="btn bg-danger" data-toggle="modal" data-target="#modal_theme_danger">Borrar <i class="icon-eraser"></i></button></td>
-
-						<td><button type="button" class="btn btn-light" data-toggle="modal" data-target="#modal_remote">editar <i class="icon-pencil3 mr-2"></i></button></td>	
-							
-                    	 		<td>Cisco</td>
-								<td>CSO14267251</td>
-								<td>Av. Cisco</td>
-								<td>94027</td>
-								<td>Distribuidor y soporte a servidores</td>
-								<td>Cisco@hotmail.com</td>
-								<td>8007642340</td>
-								<td>cisco.com</td>
-								<td>San José, California</td>
-								<td>Chuck Robbins</td>
-								
-				</tr>
-				<tr>
-							
-							<td><button type="button" class="btn bg-danger" data-toggle="modal" data-target="#modal_theme_danger">Borrar <i class="icon-eraser"></i></button></td>
-	
-							<td><button type="button" class="btn btn-light" data-toggle="modal" data-target="#modal_remote">Editar <i class="icon-pencil3 mr-2"></i></button></td>
-								
-                            <td>Oracle</td>
-							<td>OCE14267251</td>
-							<td>Col. Java</td>
-							<td>33109</td>
-							<td>Gestor de bases de datos</td>
-							<td>Oracle@gmail.com</td>
-							<td>6505067000</td>
-							<td>www.oracle.com</td>
-							<td>Redwood City, California</td>
-							<td>Lawrence J.</td>
-							</tr>
-							<tr>
-
-							<td><button type="button" class="btn bg-danger" data-toggle="modal" data-target="#modal_theme_danger">Borrar <i class="icon-eraser"></i></button></td>
-			
-							<td><button type="button" class="btn btn-light" data-toggle="modal" data-target="#modal_remote">Editar <i class="icon-pencil3 mr-2"></i></button></td>
-								
-                            <td>Walmart</td>
-							<td>WLL14267251</td>
-							<td>Av. Insurgentes</td>
-							<td>54102</td>
-							<td>Distribuidor de productos y alimentos</td>
-							<td>MWalmart@gmail.com</td>
-							<td>8007131000</td>
-							<td>www.walmart.com</td>
-							<td>Betonville, Arkansas</td>
-							<td>Familia Walton</td>
-							</tr>
-
-							<tr>	
-							<td><button type="button" class="btn bg-danger" data-toggle="modal" data-target="#modal_theme_danger">Borrar <i class="icon-eraser"></i></button></td>
-	
-							<td><button type="button" class="btn btn-light" data-toggle="modal" data-target="#modal_remote">Editar <i class="icon-pencil3 mr-2"></i></button></td>
-								
-                            <td>Radioshack</td>
-                            <td>RSA14267251</td>
-							<td>Col. Raspberry</td>
-							<td>14203</td>
-							<td>Distribuidor de dispositivos electronicos</td>
-							<td>RadioSH@hotmail.com</td>
-							<td>8003722300</td>
-							<td>www.radioshack.com</td>
-							<td>Fort Wort, Texas</td>
-							<td>Milton D.</td>
-								</td>
-							</tr>
-						</tbody>
-					</table>
-				</div>
-				<!-- /Empresas -->
-
-			</div>
-			<!-- /content area -->
-
-					 <!-- Modal Eliminar -->
-					 <div id="modal_theme_danger" class="modal fade" tabindex="-1">
-							<div class="modal-dialog">
-								<div class="modal-content">
-									<div class="modal-header bg-danger">
-										<h6 class="modal-title">Confirmar eliminación</h6>
-										<button type="button" class="close" data-dismiss="modal">&times;</button>
-									</div>
-		
-									<div class="modal-body">
-										<h6 class="font-weight-semibold">¿Esta seguro que desea eliminar?</h6>
-									</div>
-									<div class="modal-footer">
-										<button type="button" class="btn btn-link" data-dismiss="modal">Cerrar</button>
-										<button type="button" class="btn bg-danger">Eiminar</button>
-									</div>
+						<div class="card-header header-elements-inline">
+							<h5 class="card-title">Empresas</h5>
+							<div class="header-elements">
+								<div class="list-icons">
+									<a class="list-icons-item" data-action="collapse"></a>
+									<a class="list-icons-item" data-action="reload"></a>
+									<a class="list-icons-item" data-action="remove"></a>
 								</div>
 							</div>
 						</div>
-						<!-- /Modal Eliminar -->
-		
-			<!-- Modal Editar -->
-		<div id="modal_remote" class="modal" tabindex="-1">
-				<div class="modal-dialog modal-full">
-					<div class="modal-content">
-						<div class="modal-header">
-							<h5 class="modal-title">Editar Empresa</h5>
-							<button type="button" class="close" data-dismiss="modal">&times;</button>
-						</div>
-                        <div class="card">
-                                <div class="card-body">
-                                    <form action="#">
-                                        <fieldset class="mb-3">
-                                            <legend class="text-uppercase font-size-sm font-weight-bold">Ingrese los datos aqui</legend>
-            
-									<div class="form-group row">
-									<label class="col-form-label col-lg-2">Nombre</label>
-									<div class="col-lg-10">
-										<input type="text" class="form-control"  value="Cisco">
-									</div>
-								</div>
-
-								<div class="form-group row">
-									<label class="col-form-label col-lg-2">RFC</label>
-									<div class="col-lg-10">
-										<input type="text" class="form-control"  value="01010">
-									</div>
-								</div>
-
-								<div class="form-group row">
-									<label class="col-form-label col-lg-2">Dirección</label>
-									<div class="col-lg-10">
-										<input type="text" class="form-control"  value="Av. Cisco">
-									</div>
-								</div>
-
+	
+						<div class="table-responsive">
+						<table class="table datatable-pagination">
+							<thead>
+								<tr>
+									<th>Nombre</th>
+									<th>RFC</th>
+									<th>Dirección</th>
+									<th>C. P.</th>
+									<th>Servicio</th>
+									<th>Correo</th>
+									<th>Teléfono</th>
+									<th>Página web</th>
+									<th>Oficinas centrales</th>
+									<th>Propietario</th>
+								</tr>
+							</thead>
+							<tbody>
 								
-								<div class="form-group row">
-									<label class="col-form-label col-lg-2">C. P</label>
-									<div class="col-lg-10">
-										<input type="text" class="form-control"  value="94027">
-									</div>
-								</div>
+								<tr>	
 
-								<div class="form-group row">
-									<label class="col-form-label col-lg-2">Servicio</label>
-									<div class="col-lg-10">
-										<input type="text" class="form-control"  value="Soporte en redes y servidores">
-									</div>
-								</div>
-
-									<div class="form-group row">
-											<label class="col-form-label col-lg-2">Correo</label>
-											<div class="col-lg-10">
-												<input type="text" class="form-control"  value="Cisco@hotmail.com">
-											</div>
-										</div>
-
-										<div class="form-group row">
-												<label class="col-form-label col-lg-2">Teléfono</label>
-												<div class="col-lg-10">
-													<input type="text" class="form-control"  value="01 800 213 2344">
-												</div>
-											</div>
-
-											<div class="form-group row">
-													<label class="col-form-label col-lg-2">Página Web</label>
-													<div class="col-lg-10">
-														<input type="text" class="form-control"  value="www.cisco.com">
-													</div>
-												</div>
-
-												<div class="form-group row">
-													<label class="col-form-label col-lg-2">Oficinas centrales</label>
-													<div class="col-lg-10">
-														<input type="text" class="form-control"  value="San José, California">
-													</div>
-												</div>
-
-												<div class="form-group row">
-													<label class="col-form-label col-lg-2">Propietario</label>
-													<div class="col-lg-10">
-														<input type="text" class="form-control"  value="Cisco@hotmail.com">
-													</div>
-						<div class="modal-body"></div>
-			
-						<div class="modal-footer">
-							<button type="button" class="btn btn-link" data-dismiss="modal">Close</button>
-							<button type="button" class="btn bg-primary">Save changes</button>
-						</div>
+								<td>Kemet</td>
+								<td>KMT14267251</td>
+								<td>AV. Torre Blanca</td>
+								<td>87049</td>
+								<td>Distribuidor de componentes electronicos</td>
+								<td>info@kemet.com</td>
+								<td>8343187400</td>
+								<td>kemet.com</td>
+								<td>Cd. Victoria, Tam.</td>
+								<td>Julio Preciado</td>
+	
+							</tr>				
+									 <td>Cisco</td>
+									<td>CSO14267251</td>
+									<td>Av. Cisco</td>
+									<td>94027</td>
+									<td>Distribuidor y soporte a servidores</td>
+									<td>Cisco@hotmail.com</td>
+									<td>01 800 764 2340</td>
+									<td>cisco.com</td>
+									<td>San José, California</td>
+									<td>Chuck Robbins</td>
+									
+					</tr>
+					<tr>			
+								<td>Oracle</td>
+								<td>OCE14267251</td>
+								<td>Col. Java</td>
+								<td>33109</td>
+								<td>Gestor de bases de datos</td>
+								<td>Oracle@gmail.com</td>
+								<td>01 650 506 7000</td>
+								<td>www.oracle.com</td>
+								<td>Redwood City, California</td>
+								<td>Lawrence J.</td>
+								</tr>
+								<tr>
+	
+								<td>Walmart</td>
+								<td>WLL14267251</td>
+								<td>Av. Insurgentes</td>
+								<td>54102</td>
+								<td>Distribuidor de productos y alimentos</td>
+								<td>MWalmart@gmail.com</td>
+								<td>01 800 713 1000</td>
+								<td>www.walmart.com</td>
+								<td>Betonville, Arkansas</td>
+								<td>Familia Walton</td>
+								</tr>
+	
+								<tr>		
+								<td>Radioshack</td>
+								<td>RSA14267251</td>
+								<td>Col. Raspberry</td>
+								<td>14203</td>
+								<td>Distribuidor de dispositivos electronicos</td>
+								<td>RadioSH@hotmail.com</td>
+								<td>01 800 372 2300</td>
+								<td>www.radioshack.com</td>
+								<td>Fort Wort, Texas</td>
+								<td>Milton D.</td>
+									</td>
+								</tr>
+							</tbody>
+						</table>
 					</div>
-				</div>
+					<!-- /Empresas -->				
+
 			</div>
-			<!-- /Modal Editar -->
-
-			<!-- Footer -->
-			<div class="navbar navbar-expand-lg navbar-light">
-				<div class="text-center d-lg-none w-100">
-					<button type="button" class="navbar-toggler dropdown-toggle" data-toggle="collapse" data-target="#navbar-footer">
-						<i class="icon-unfold mr-2"></i>
-						Footer
-					</button>
-				</div>
-
-				<div class="navbar-collapse collapse" id="navbar-footer">
-					<span class="navbar-text">
-						&copy; 2015 - 2018. <a href="#">Limitless Web App Kit</a> by <a href="http://themeforest.net/user/Kopyov" target="_blank">Eugene Kopyov</a>
-					</span>
-
-					<ul class="navbar-nav ml-lg-auto">
-						<li class="nav-item"><a href="https://kopyov.ticksy.com/" class="navbar-nav-link" target="_blank"><i class="icon-lifebuoy mr-2"></i> Support</a></li>
-						<li class="nav-item"><a href="http://demo.interface.club/limitless/docs/" class="navbar-nav-link" target="_blank"><i class="icon-file-text2 mr-2"></i> Docs</a></li>
-						<li class="nav-item"><a href="https://themeforest.net/item/limitless-responsive-web-application-kit/13080328?ref=kopyov" class="navbar-nav-link font-weight-semibold"><span class="text-pink-400"><i class="icon-cart2 mr-2"></i> Purchase</span></a></li>
-					</ul>
-				</div>
-			</div>
-			<!-- /footer -->
+			<!-- /content area -->
 
 		</div>
 		<!-- /main content -->

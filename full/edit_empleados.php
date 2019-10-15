@@ -4,7 +4,7 @@
 	<meta charset="utf-8">
 	<meta http-equiv="X-UA-Compatible" content="IE=edge">
 	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-	<title>editar lista de empresas</title>
+	<title>Editar lista de empleados</title>
 
 	<!-- Global stylesheets -->
 	<link href="https://fonts.googleapis.com/css?family=Roboto:400,300,100,500,700,900" rel="stylesheet" type="text/css">
@@ -435,15 +435,11 @@
 		
 									<ul class="nav nav-group-sub" data-submenu-title="Themes">
 										<!--<li class="nav-item"><a href="index.html" class="nav-link active">Default</a></li>-->
-										<li class="nav-item"><a href="../../../../layout_1/LTR/default/full/edit_vacaciones.html" class="nav-link">Editar</a></li>
-										<li class="nav-item"><a href="/Template/layout_1/LTR/default/full/add_vacaciones.html" class="nav-link">Añadir</a></li>
-										<li class="nav-item"><a href="/Template/layout_1/LTR/default/full/lista_vacaciones.html" class="nav-link">Listar</a></li>
+										<li class="nav-item"><a href="../../../../layout_1/LTR/default/full/edit_empresas.html" class="nav-link">Editar</a></li>
+										<li class="nav-item"><a href="/Template/layout_1/LTR/default/full/add_empresas.html" class="nav-link">Añadir</a></li>
+										<li class="nav-item"><a href="/Template/layout_1/LTR/default/full/empresas_lista.html" class="nav-link">Listar</a></li>
 									</ul>
 								</li>
-								                                    
-								<li class="nav-item nav-item-menu"></li>
-								<a href="/Template/layout_1/LTR/default/full/pagos_transporte.html" class="nav-link"><i class="icon-address-book"></i> <span>Pago de transporte</span></a>
-						</li>
 						</ul>
 					</div>
 					<!-- /main navigation -->
@@ -461,90 +457,83 @@
 			<!-- Content area -->
 			<div class="content">
 
-				<!-- Empresas -->
+				<!-- Empleados -->
 				<div class="card">
-					<div class="card-header header-elements-inline">
-						<h5 class="card-title">Empresas</h5>
-						<div class="header-elements">
-							<div class="list-icons">
-		                		<a class="list-icons-item" data-action="collapse"></a>
-		                		<a class="list-icons-item" data-action="reload"></a>
-		                		<a class="list-icons-item" data-action="remove"></a>
-		                	</div>
-	                	</div>
-					</div>
-
-					<div class="table-responsive">
-					<table class="table datatable-pagination">
-						<thead>
-							<tr>
-								<th></th>
-								<th></th>
-								<th>Nombre</th>
-								<th>RFC</th>
-								<th>Dirección</th>
-								<th>C. P.</th>
-								<th>Servicio</th>
-								<th>Correo</th>
-								<th>Teléfono</th>
-								<th>Página web</th>
-								<th>Oficinas centrales</th>
-								<th>Propietario</th>
-							</tr>
-						</thead>
-						<tbody>
-							
-
+                        <div class="card-header header-elements-inline">
+                            <h5 class="card-title">Lista de empleados</h5>
+                            <div class="header-elements">
+                                <div class="list-icons">
+                                    <a class="list-icons-item" data-action="collapse"></a>
+                                    <a class="list-icons-item" data-action="reload"></a>
+                                    <a class="list-icons-item" data-action="remove"></a>
+                                </div>
+                            </div>
+                        </div>
+    
+                        <table class="table datatable-basic">
+                            <thead>
+                                <tr>
+                                    <th></th>
+                                    <th></th>
+                                    <th>Nombres</th>
+                                    <th>Apellidos</th>
+                                    <th>Edad</th>
+                                    <th>E-Mail</th>
+                                    <th>Habilidad</th>
+                                    <th>Dirección</th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <tr>
 
 							<td><button type="button" class="btn bg-danger" data-toggle="modal" data-target="#modal_theme_danger">Borrar <i class="icon-eraser"></i></button></td>
 			
 							<td><button type="button" class="btn btn-light" data-toggle="modal" data-target="#modal_remote">editar <i class="icon-pencil3 mr-2"></i></button></td>
 								
-                            <td>Kemet</td>
-							<td>KMT14267251</td>
-							<td>AV. Torre Blanca</td>
-							<td>87049</td>
-							<td>Distribuidor de componentes electronicos</td>
-							<td>info@kemet.com</td>
-							<td>8343187400</td>
-							<td>kemet.com</td>
-							<td>Cd. Victoria, Tam.</td>
-							<td>Julio Preciado</td>
-
-						<tr>
-
+                            <td>José</td>
+                            <td>Sanchez Santoyo</td>
+                            <td>27</td>
+                            <td>joseSS@gmail.com</td>
+                            <td>Programador Jr</td>
+                            <td>Colonia Las Americas</td>
+                        </div>
+                    </div>
+                </div>
+            </td>
+        </tr>
+        <tr>
+        
 						<td><button type="button" class="btn bg-danger" data-toggle="modal" data-target="#modal_theme_danger">Borrar <i class="icon-eraser"></i></button></td>
 
 						<td><button type="button" class="btn btn-light" data-toggle="modal" data-target="#modal_remote">editar <i class="icon-pencil3 mr-2"></i></button></td>	
 							
-                    	 		<td>Cisco</td>
-								<td>CSO14267251</td>
-								<td>Av. Cisco</td>
-								<td>94027</td>
-								<td>Distribuidor y soporte a servidores</td>
-								<td>Cisco@hotmail.com</td>
-								<td>8007642340</td>
-								<td>cisco.com</td>
-								<td>San José, California</td>
-								<td>Chuck Robbins</td>
-								
-				</tr>
-				<tr>
+                        <td>Jaqueline</td>
+                        <td>Diaz Maldonado</td>
+                        <td>25</td>
+                        <td>jaqueUM@gmail.com</td>
+                        <td>Programador Senior</td>
+                        <td>Col. Las Adelitas</td>
+                                            </div>
+										</div>
+									</div>
+								</td>
+							</tr>
+							<tr>
 							
 							<td><button type="button" class="btn bg-danger" data-toggle="modal" data-target="#modal_theme_danger">Borrar <i class="icon-eraser"></i></button></td>
 	
 							<td><button type="button" class="btn btn-light" data-toggle="modal" data-target="#modal_remote">Editar <i class="icon-pencil3 mr-2"></i></button></td>
 								
-                            <td>Oracle</td>
-							<td>OCE14267251</td>
-							<td>Col. Java</td>
-							<td>33109</td>
-							<td>Gestor de bases de datos</td>
-							<td>Oracle@gmail.com</td>
-							<td>6505067000</td>
-							<td>www.oracle.com</td>
-							<td>Redwood City, California</td>
-							<td>Lawrence J.</td>
+                            <td>Beatriz Adriana</td>
+                            <td>Urbina Báez</td>
+                            <td>26</td>
+                            <td>bettyUB@gmail.com</td>
+                            <td>Programador Front-End</td>
+                            <td>Av. Las Americas</td>
+										</div>
+										</div>
+									</div>
+								</td>
 							</tr>
 							<tr>
 
@@ -552,39 +541,127 @@
 			
 							<td><button type="button" class="btn btn-light" data-toggle="modal" data-target="#modal_remote">Editar <i class="icon-pencil3 mr-2"></i></button></td>
 								
-                            <td>Walmart</td>
-							<td>WLL14267251</td>
-							<td>Av. Insurgentes</td>
-							<td>54102</td>
-							<td>Distribuidor de productos y alimentos</td>
-							<td>MWalmart@gmail.com</td>
-							<td>8007131000</td>
-							<td>www.walmart.com</td>
-							<td>Betonville, Arkansas</td>
-							<td>Familia Walton</td>
+                            <td>Ana Sofia</td>
+                            <td>Alemán Urbina</td>
+                            <td>25</td>
+                            <td>AnaSof.AU@gmail.com</td>
+                            <td>Contador</td>
+                            <td>Atras del Oxxo</td>
+										</div>
+										</div>
+									</div>
+								</td>
 							</tr>
-
-							<tr>	
+							<tr>
+								
 							<td><button type="button" class="btn bg-danger" data-toggle="modal" data-target="#modal_theme_danger">Borrar <i class="icon-eraser"></i></button></td>
 	
 							<td><button type="button" class="btn btn-light" data-toggle="modal" data-target="#modal_remote">Editar <i class="icon-pencil3 mr-2"></i></button></td>
 								
-                            <td>Radioshack</td>
-                            <td>RSA14267251</td>
-							<td>Col. Raspberry</td>
-							<td>14203</td>
-							<td>Distribuidor de dispositivos electronicos</td>
-							<td>RadioSH@hotmail.com</td>
-							<td>8003722300</td>
-							<td>www.radioshack.com</td>
-							<td>Fort Wort, Texas</td>
-							<td>Milton D.</td>
+                            <td>José Manuel</td>
+                            <td>Martínez Tirado</td>
+                            <td>25</td>
+                            <td>OtakuApestoso@gmail.com</td>
+                            <td>Programador Jr</td>
+                            <td>Lib. Naciones Unidas</td>
+										</div>
+										</div>
+									</div>
+								</td>
+                            </tr>
+                            <tr>
+							<td><button type="button" class="btn bg-danger" data-toggle="modal" data-target="#modal_theme_danger">Borrar <i class="icon-eraser"></i></button></td>
+			
+							<td><button type="button" class="btn btn-light" data-toggle="modal" data-target="#modal_remote">Editar <i class="icon-pencil3 mr-2"></i></button></td>
+								
+                            <td>Eduardo</td>
+                            <td>Vazquez Romo</td>
+                            <td>29</td>
+                            <td>EdVR19@gmail.com</td>
+                            <td>Programador Java Senior</td>
+                            <td>Col. Libertadores</td>
+										</div>
+										</div>
+									</div>
 								</td>
 							</tr>
+							<tr>
+
+                                
+							<td><button type="button" class="btn bg-danger" data-toggle="modal" data-target="#modal_theme_danger">Borrar <i class="icon-eraser"></i></button></td>
+			
+							<td><button type="button" class="btn btn-light" data-toggle="modal" data-target="#modal_remote">editar <i class="icon-pencil3 mr-2"></i></button></td>
+							
+									<td>Pedro</td>
+									<td>Smith Hernandez</td>
+									<td>27</td>
+									<td>PedritoSmith@gmail.com</td>
+									<td>Ingles Fluido</td>
+									<td>Enrique segobiano</td>
+                          </div>
+                       </div>
+                       </div>
+                     </td>
+                  </tr>
+                   <tr>       
+
+                        <td><button type="button" class="btn bg-danger" data-toggle="modal" data-target="#modal_theme_danger">Borrar <i class="icon-eraser"></i></button></td>
+			
+                        <td><button type="button" class="btn btn-light" data-toggle="modal" data-target="#modal_remote">editar <i class="icon-pencil3 mr-2"></i></button></td>
+                        
+                        <td>Brayan Emmanuel</td>
+                        <td>Mascorro Mata</td>
+                        <td>24</td>
+                        <td>BrayanMasco@gmail.com</td>
+                        <td>Trabajo en equipo</td>
+                        <td>Col. Gutierrez</td>
+              </div>
+           </div>
+           </div>
+         </td>
+      </tr>
+       <tr>  
+           
+							<td><button type="button" class="btn bg-danger" data-toggle="modal" data-target="#modal_theme_danger">Borrar <i class="icon-eraser"></i></button></td>
+			
+							<td><button type="button" class="btn btn-light" data-toggle="modal" data-target="#modal_remote">editar <i class="icon-pencil3 mr-2"></i></button></td>
+							
+            <td>Jesus</td>
+            <td>Resendz Sanchez</td>
+            <td>27</td>
+            <td>ChuyRS@gmail.com</td>
+            <td>Superpoderes</td>
+            <td>Av. insurgentes</td>
+  </div>
+</div>
+</div>
+</td>
+</tr>
+<tr> 
+    
+        <td><button type="button" class="btn bg-danger" data-toggle="modal" data-target="#modal_theme_danger">Borrar <i class="icon-eraser"></i></button></td>
+			
+        <td><button type="button" class="btn btn-light" data-toggle="modal" data-target="#modal_remote">editar <i class="icon-pencil3 mr-2"></i></button></td>
+        
+        <td>Axel Arath</td>
+        <td>Quintanilla Cardenaz</td>
+        <td>23</td>
+        <td>AxelQC@gmail.com</td>
+        <td>Programador semi-senior</td>
+        <td>Col. Juarez 5</td>
+</div>
+</div>
+</div>
+</td>
+</tr>
+<tr> 
 						</tbody>
 					</table>
-				</div>
-				<!-- /Empresas -->
+                </div>
+                
+
+
+				<!-- /Empleados -->
 
 			</div>
 			<!-- /content area -->
@@ -615,84 +692,74 @@
 				<div class="modal-dialog modal-full">
 					<div class="modal-content">
 						<div class="modal-header">
-							<h5 class="modal-title">Editar Empresa</h5>
+							<h5 class="modal-title">Editar Empleados</h5>
 							<button type="button" class="close" data-dismiss="modal">&times;</button>
 						</div>
                         <div class="card">
+                                </div>
+            
                                 <div class="card-body">
+            
                                     <form action="#">
                                         <fieldset class="mb-3">
-                                            <legend class="text-uppercase font-size-sm font-weight-bold">Ingrese los datos aqui</legend>
+                                            <legend class="text-uppercase font-size-sm font-weight-bold">Ingrese sus datos aqui</legend>
             
-									<div class="form-group row">
-									<label class="col-form-label col-lg-2">Nombre</label>
-									<div class="col-lg-10">
-										<input type="text" class="form-control"  value="Cisco">
-									</div>
-								</div>
+                                            <div class="form-group row">
+                                                <label class="col-form-label col-lg-2">Nombres</label>
+                                                <div class="col-lg-10">
+                                                    <input type="text" class="form-control" value="Axel Issai">
+                                                </div>
+                                            </div>
+            
+                                            <div class="form-group row">
+                                                <label class="col-form-label col-lg-2">Apellidos</label>
+                                                <div class="col-lg-10">
+                                                    <input type="text" class="form-control" value="Alemán Delgado">
+                                                </div>
+                                            </div>
+            
+                                            <div class="form-group row">
+                                                <label class="col-form-label col-lg-2">Nombre de usuario</label>
+                                                <div class="col-lg-10">
+                                                    <input type="text" class="form-control"  value="AxelAD">
+                                                </div>
+                                            </div>
+            
+                                            <div class="form-group row">
+                                                <label class="col-form-label col-lg-2">Correo electronico</label>
+                                                <div class="col-lg-10">
+                                                        <input type="text" class="form-control"  value="axelad38@upv.edu.mx">
+                                                    <!--<input type="text" class="form-control" placeholder="example@gmail.com">  Texto en gris-->
+                                                </div>
+                                            </div>
+            
+                                            <div class="form-group row">
+                                                <label class="col-form-label col-lg-2">Contraseña</label>
+                                                <div class="col-lg-10">
+                                                    <input type="password" class="form-control"  value="uwygefuywegfuy">
+                                                </div>
+                                            </div>
+            
+                                            <div class="form-group row">
+                                                <label class="col-form-label col-lg-2">Edad</label>
+                                                <div class="col-lg-10">
+                                                    <input type="text" class="form-control"  value="18">
+                                                </div>
+                                            </div>
+            
+                                            <div class="form-group row">
+                                                <label class="col-form-label col-lg-2">Habilidad</label>
+                                                <div class="col-lg-10">
+                                                    <input type="text" class="form-control"  value="Programador Jr">
+                                                </div>
+                                            </div>
+            
+                                            <div class="form-group row">
+                                                <label class="col-form-label col-lg-2">Dirección</label>
+                                                <div class="col-lg-10">
+                                                    <input type="text" class="form-control"  value="Col. Las Americas">
+                                                </div>
 
-								<div class="form-group row">
-									<label class="col-form-label col-lg-2">RFC</label>
-									<div class="col-lg-10">
-										<input type="text" class="form-control"  value="01010">
-									</div>
-								</div>
-
-								<div class="form-group row">
-									<label class="col-form-label col-lg-2">Dirección</label>
-									<div class="col-lg-10">
-										<input type="text" class="form-control"  value="Av. Cisco">
-									</div>
-								</div>
-
-								
-								<div class="form-group row">
-									<label class="col-form-label col-lg-2">C. P</label>
-									<div class="col-lg-10">
-										<input type="text" class="form-control"  value="94027">
-									</div>
-								</div>
-
-								<div class="form-group row">
-									<label class="col-form-label col-lg-2">Servicio</label>
-									<div class="col-lg-10">
-										<input type="text" class="form-control"  value="Soporte en redes y servidores">
-									</div>
-								</div>
-
-									<div class="form-group row">
-											<label class="col-form-label col-lg-2">Correo</label>
-											<div class="col-lg-10">
-												<input type="text" class="form-control"  value="Cisco@hotmail.com">
-											</div>
-										</div>
-
-										<div class="form-group row">
-												<label class="col-form-label col-lg-2">Teléfono</label>
-												<div class="col-lg-10">
-													<input type="text" class="form-control"  value="01 800 213 2344">
-												</div>
-											</div>
-
-											<div class="form-group row">
-													<label class="col-form-label col-lg-2">Página Web</label>
-													<div class="col-lg-10">
-														<input type="text" class="form-control"  value="www.cisco.com">
-													</div>
-												</div>
-
-												<div class="form-group row">
-													<label class="col-form-label col-lg-2">Oficinas centrales</label>
-													<div class="col-lg-10">
-														<input type="text" class="form-control"  value="San José, California">
-													</div>
-												</div>
-
-												<div class="form-group row">
-													<label class="col-form-label col-lg-2">Propietario</label>
-													<div class="col-lg-10">
-														<input type="text" class="form-control"  value="Cisco@hotmail.com">
-													</div>
 						<div class="modal-body"></div>
 			
 						<div class="modal-footer">
